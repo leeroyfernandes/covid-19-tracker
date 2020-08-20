@@ -1,0 +1,9 @@
+.app__footer{
+   background-color: rgb(60, 62, 62);
+   color:white;
+   padding-top:1rem ;
+   position: relative;
+  text-align: center;
+  padding-bottom: 5rem;
+   width:100%
+}

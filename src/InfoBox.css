@@ -1,0 +1,49 @@
+.infoBox {
+  flex: 1;
+  margin-bottom: 10px;
+  margin-right:7px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+  
+}
+
+.infoBox--selected {
+  border-top: 10px solid rgb(111, 167, 28);
+  
+  
+}
+
+.infoBox--red {
+  border-color: rgb(209, 0, 0);
+  background-color: rgb(200, 224, 193);
+}
+
+.infoBox__cases--green {
+  color: rgb(39, 182, 39) !important;
+  
+}
+
+.infoBox__cases {
+  color: #b30b29;
+  font-weight: 600;
+  font-size: 2.75rem;
+ 
+}
+
+.infoBox__total {
+  color: #9f0000;
+  font-weight: 700 !important;
+  font-size: 1.6rem !important;
+  margin-top: 5px !important;
+}
+.card__cardContent{
+  background: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+
